@@ -1,0 +1,96 @@
+* {
+    box-sizing:border-box;
+}
+
+@font-face {
+  src: url("/HansKendrick-Regular/HansKendrick-Regular.otf"); 
+  font-style: normal;
+ }
+
+.flex{
+  display: flex;
+  width: 1120px;
+  margin: 90px auto;
+  flex-direction: row;
+  background-color: #E2E7EC;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.backGroundColor{
+  width: 1600px;
+  height: 1600px;
+  background-color: #E2E7EC;
+  padding: 1px;
+  margin: 100px auto;
+}
+.divItem{ 
+  margin: 5px;
+  background-color: #faf9f9;
+}
+
+.mainImg{
+  width: 730px;
+  height: 550px;
+}
+
+.imageTitle{
+  position: absolute;
+  top: 400px;
+  left: 30px;
+  padding: 0;
+  width: 410px;
+  height: 75px;
+  background-color: rgb(255, 255, 255, 0);
+}
+
+.paragraf1{
+  margin-bottom: 0;
+  color: #f1ebeb;
+}
+
+.paragraf2{
+  color: rgb(255, 255, 255, .6);
+  font-size: 27px;
+  margin-top: 0;
+}
+
+.photoWoman,
+.banch,
+.lags,
+.womAndBus {
+  width: 360px;
+  height: 251px;
+}
+
+p, h3{
+  font-size: 10px;
+}
+
+.face{
+  width: 74px;
+  height: 74px;
+  padding: 10px;
+}
+
+p{
+  color: #a3a2a2;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+h3{
+  font-size: 22px;
+  font-family: HansKendrick-Regular, Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-top: -15px;
+  color: rgb(85, 84, 84, .8);
+}
+
+.ItenFour h3{
+  padding-top: 40px;
+}
